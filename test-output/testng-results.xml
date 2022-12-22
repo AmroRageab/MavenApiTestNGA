@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-22T03:43:34 EST" name="Default suite" finished-at="2022-12-22T03:44:28 EST" duration-ms="53553">
+    <groups>
+    </groups>
+    <test started-at="2022-12-22T03:43:34 EST" name="Default test" finished-at="2022-12-22T03:44:28 EST" duration-ms="53553">
+      <class name="tests.CraterUserManagement">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:43:34 EST" name="setup" finished-at="2022-12-22T03:43:40 EST" duration-ms="5518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup1()[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:43:40 EST" name="setup1" finished-at="2022-12-22T03:43:40 EST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:43:40 EST" name="invalidLogin" data-provider="credential" finished-at="2022-12-22T03:43:44 EST" duration-ms="4750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[helil@primetechschool.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standardhhfvajk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:43:44 EST" name="tearDown" finished-at="2022-12-22T03:43:46 EST" duration-ms="1407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:43:46 EST" name="setup" finished-at="2022-12-22T03:43:50 EST" duration-ms="4121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup1()[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:43:50 EST" name="setup1" finished-at="2022-12-22T03:43:50 EST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:43:50 EST" name="invalidLogin" data-provider="credential" finished-at="2022-12-22T03:43:55 EST" duration-ms="4973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nothing@primetechschool.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:43:55 EST" name="tearDown" finished-at="2022-12-22T03:43:56 EST" duration-ms="1391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:43:56 EST" name="setup" finished-at="2022-12-22T03:44:00 EST" duration-ms="4046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup1()[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:44:00 EST" name="setup1" finished-at="2022-12-22T03:44:00 EST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:44:00 EST" name="invalidLogin" data-provider="credential" finished-at="2022-12-22T03:44:05 EST" duration-ms="4278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:44:05 EST" name="tearDown" finished-at="2022-12-22T03:44:06 EST" duration-ms="1505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:44:06 EST" name="setup" finished-at="2022-12-22T03:44:10 EST" duration-ms="4043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup1()[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:44:10 EST" name="setup1" finished-at="2022-12-22T03:44:10 EST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:44:10 EST" name="invalidLogin" data-provider="credential" finished-at="2022-12-22T03:44:14 EST" duration-ms="4224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nothing@primetechschool.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:44:14 EST" name="tearDown" finished-at="2022-12-22T03:44:16 EST" duration-ms="1344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:44:16 EST" name="setup" finished-at="2022-12-22T03:44:20 EST" duration-ms="4071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup1()[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:44:20 EST" name="setup1" finished-at="2022-12-22T03:44:20 EST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method signature="validLogin()[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:44:20 EST" name="validLogin" finished-at="2022-12-22T03:44:26 EST" duration-ms="6266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CraterUserManagement@3d74bf60]" started-at="2022-12-22T03:44:26 EST" name="tearDown" finished-at="2022-12-22T03:44:28 EST" duration-ms="1497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CraterUserManagement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
